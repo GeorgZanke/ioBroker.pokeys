@@ -1,0 +1,39 @@
+{
+  "name": "iobroker.pokeys",
+  "version": "1.0.0",
+  "description": "Pokeys Adapter",
+  "author": {
+    "name": "Georg Zanke",
+    "email": "georg@zanke-online.de"
+  },
+  "contributors": [
+    {
+      "name": "Georg Zanke",
+      "email": "georg@zanke-online.de"
+    }
+  ],
+  "homepage": "poscope.com",
+  "license": "MIT",
+  "keywords": [
+    "Pokeys"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GeorgZanke/ioBroker.pokeys"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "mocha": "^4.1.0",
+    "chai": "^4.1.2"
+  },
+  "main": "main.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha --exit"
+  },
+  "bugs": {
+    "url": "https://github.com/ioBroker/ioBroker.pokeys/issues"
+  },
+  "readmeFilename": "README.md"
+}
